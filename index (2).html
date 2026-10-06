@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ANU Car Rentals &amp; Travels | Car Rental &amp; Outstation Travel in Nellore</title>
+  <meta name="description" content="Self-drive cars, outstation trips and daily Nellore to Hyderabad travel with safety and comfort first.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <a class="logo" href="#home">ANU <span>Car Rentals &amp; Travels</span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button>
+  <nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#cars">Cars</a>
+    <a href="#services">Services</a>
+    <a href="#outstation">Outstation</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="btn btn-sm header-cta" href="#booking">Book Now</a>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <p class="place">Kovur, Nellore, Andhra Pradesh</p>
+      <h1>Your Journey.<br>Our Responsibility.</h1>
+      <p class="lead">Premium self-drive cars, outstation trips and reliable travel solutions from Nellore to Hyderabad and beyond.</p>
+      <div class="actions">
+        <a class="btn" href="#booking">Book a Car</a>
+        <a class="btn btn-ghost" href="#services">Explore Services</a>
+      </div>
+      <p class="tagline">Safe. Comfortable. Reliable. Available 24/7.</p>
+    </div>
+
+    <form class="booking" id="booking" novalidate>
+      <h2>Where can we take you?</h2>
+      <label>Pickup Location *
+        <input type="text" name="pickup" placeholder="e.g. Kovur, Nellore" required>
+      </label>
+      <label>Drop Location *
+        <input type="text" name="drop" placeholder="e.g. Hyderabad" required>
+      </label>
+      <div class="row">
+        <label>Pickup Date *
+          <input type="date" name="date" id="date" required>
+        </label>
+        <label>Pickup Time *
+          <input type="time" name="time" required>
+        </label>
+      </div>
+      <label>Your Name *
+        <input type="text" name="name" autocomplete="name" required>
+      </label>
+      <label>Mobile Number *
+        <input type="tel" name="mobile" inputmode="numeric" maxlength="10" placeholder="10-digit number" autocomplete="tel" required>
+      </label>
+      <label>Trip Type *
+        <select name="trip" required>
+          <option value="">Select trip</option>
+          <option>Self Drive</option>
+          <option>Outstation</option>
+          <option>Nellore to Hyderabad</option>
+          <option>Hyderabad to Nellore</option>
+        </select>
+      </label>
+      <p class="error" id="formError" role="alert"></p>
+      <button class="btn btn-full" type="submit">Check Availability</button>
+      <p class="note">Your details open in WhatsApp so we can confirm availability quickly.</p>
+    </form>
+  </section>
+
+  <section class="section" id="services">
+    <div class="head">
+      <h2>Travel Your Way</h2>
+      <p>Flexible rental and travel solutions designed around your journey.</p>
+    </div>
+    <div class="grid four">
+      <article class="card" id="self">
+        <h3>Self Drive Cars</h3>
+        <p>Drive on your own terms with comfortable and well-maintained vehicles.</p>
+        <a href="#cars">Explore Cars</a>
+      </article>
+      <article class="card">
+        <h3>Outstation Trips</h3>
+        <p>Comfortable long-distance travel for family trips, business journeys and vacations.</p>
+        <a href="#booking">Plan a Trip</a>
+      </article>
+      <article class="card" id="nellore">
+        <h3>Nellore &harr; Hyderabad</h3>
+        <p>Reliable daily travel between Nellore and Hyderabad.</p>
+        <a href="#outstation">Book Journey</a>
+      </article>
+      <article class="card" id="travel">
+        <h3>24/7 Travel Support</h3>
+        <p>Travel assistance whenever you need it.</p>
+        <a href="#contact">Contact Us</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section fleet" id="cars">
+    <div class="fleet-img">
+      <img src="https://anu-cars-travels.lovable.app/assets/anu-fleet-BgG81ETG.jpg" alt="Maruti Suzuki Ertiga available for rent" loading="lazy">
+      <span class="badge">Available</span>
+    </div>
+    <div class="fleet-info">
+      <h2>Choose Your Ride</h2>
+      <p>Our current fleet features the Maruti Suzuki Ertiga: spacious, fuel-efficient and ready for your next journey.</p>
+      <h3>Maruti Suzuki Ertiga</h3>
+      <p class="muted">Self Drive, Family and Outstation</p>
+      <ul class="chips">
+        <li>7 Seater</li>
+        <li>Manual</li>
+        <li>CNG</li>
+      </ul>
+      <a class="btn" href="#booking">Book This Car</a>
+    </div>
+  </section>
+
+  <section class="route" id="outstation">
+    <p class="route-label">Daily Intercity Service</p>
+    <h2>Nellore &harr; Hyderabad</h2>
+    <p>Daily travel. Reliable service. Comfortable journeys.</p>
+    <div class="line" aria-hidden="true"><strong>Nellore</strong><span></span><strong>Hyderabad</strong></div>
+    <ul class="chips light">
+      <li>Daily Service</li>
+      <li>Comfortable Travel</li>
+      <li>Safe Journey</li>
+      <li>Professional Service</li>
+    </ul>
+  </section>
+
+  <section class="section journey">
+    <h2>More Than a Rental. It&rsquo;s Your Journey.</h2>
+    <p>From short city drives to long-distance adventures, ANU Car Rentals &amp; Travels helps make every journey comfortable, convenient and memorable.</p>
+    <a class="btn" href="#booking">Start Your Journey</a>
+  </section>
+
+  <section class="section why">
+    <div class="head">
+      <h2>Why Choose ANU?</h2>
+      <p>Reliable vehicles, attentive support and a clear commitment to every journey.</p>
+    </div>
+    <ul class="grid four ticks">
+      <li>Safety First</li>
+      <li>Well Maintained Cars</li>
+      <li>Transparent Service</li>
+      <li>24/7 Availability</li>
+      <li>Comfortable Travel</li>
+      <li>Reliable Support</li>
+      <li>Flexible Rental Options</li>
+      <li>Outstation Travel</li>
+    </ul>
+    <div class="stats">
+      <p><strong>24/7</strong> Available</p>
+      <p><strong>100%</strong> Customer Focus</p>
+      <p><strong>Daily</strong> Nellore &harr; Hyderabad</p>
+      <p><strong>Safe</strong> &amp; Comfortable</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="head"><h2>What Our Customers Say</h2></div>
+    <div class="grid three">
+      <blockquote class="card"><p>&ldquo;Comfortable car and very smooth booking experience.&rdquo;</p><cite>Ravi K.</cite></blockquote>
+      <blockquote class="card"><p>&ldquo;Very convenient for our outstation trip.&rdquo;</p><cite>Sandeep R.</cite></blockquote>
+      <blockquote class="card"><p>&ldquo;Professional service and excellent support.&rdquo;</p><cite>Priya M.</cite></blockquote>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <img src="https://anu-cars-travels.lovable.app/assets/anu-about-car-Bf_0M4mf.jpg" alt="Premium white rental car at a scenic highway viewpoint" loading="lazy">
+    <div>
+      <h2>Your Journey Starts With ANU</h2>
+      <p>ANU Car Rentals &amp; Travels is focused on providing reliable, comfortable and convenient travel solutions for customers in Nellore, Hyderabad and surrounding destinations.</p>
+      <ul class="chips">
+        <li>Safety</li>
+        <li>Comfort</li>
+        <li>Reliability</li>
+        <li>Customer Service</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Ready To Start Your Journey?</h2>
+    <p>We&rsquo;re available around the clock for rentals, outstation travel and the Nellore&ndash;Hyderabad route.</p>
+    <ul class="details">
+      <li>Kovur, Nellore</li>
+      <li><a href="tel:+919492734906">9492734906</a></li>
+      <li><a href="mailto:anucarsandtravels277@gmail.com">anucarsandtravels277@gmail.com</a></li>
+      <li>Available 24/7</li>
+    </ul>
+    <div class="actions center">
+      <a class="btn" href="tel:+919492734906">Call Now</a>
+      <a class="btn btn-wa" href="https://wa.me/919492734906?text=Hi%20ANU%20Car%20Rentals%20%26%20Travels%2C%20I%20would%20like%20to%20enquire%20about%20a%20car%20rental." target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn-ghost" href="#booking">Book a Car</a>
+      <a class="btn btn-ghost" href="mailto:anucarsandtravels277@gmail.com">Email Us</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div>
+    <a class="logo" href="#home">ANU <span>Car Rentals &amp; Travels</span></a>
+    <p>Your Safety &amp; Comfort Is Our Priority</p>
+  </div>
+  <div>
+    <h3>Explore</h3>
+    <a href="#home">Home</a><a href="#cars">Cars</a><a href="#services">Services</a><a href="#outstation">Outstation</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </div>
+  <div>
+    <h3>Services</h3>
+    <a href="#self">Self Drive Cars</a><a href="#outstation">Outstation Trips</a><a href="#nellore">Nellore &harr; Hyderabad</a><a href="#travel">Travel Services</a>
+  </div>
+  <div>
+    <h3>Contact</h3>
+    <p>Kovur, Nellore</p><p>9492734906</p><p>anucarsandtravels277@gmail.com</p>
+  </div>
+  <p class="copy">&copy; 2026 ANU Car Rentals &amp; Travels. All Rights Reserved.</p>
+</footer>
+
+<div class="mobile-bar">
+  <a href="tel:+919492734906">Call</a>
+  <a href="https://wa.me/919492734906?text=Hi%20ANU%20Car%20Rentals%20%26%20Travels%2C%20I%20would%20like%20to%20enquire%20about%20a%20car%20rental." target="_blank" rel="noopener">WhatsApp</a>
+  <a href="#booking">Book Now</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
