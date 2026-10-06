@@ -46,7 +46,7 @@ nav a:hover { border-color: var(--sun); }
 
 /* Hero */
 .hero { display: grid; grid-template-columns: 1.1fr .9fr; gap: 3rem; align-items: center; padding: 5rem 5vw; color: #fff;
-  background: linear-gradient(100deg, rgba(14,28,44,.9) 15%, rgba(14,28,44,.45)), url("images/hero.jpg") center / cover, var(--dusk); }
+  background: linear-gradient(100deg, rgba(14,28,44,.9) 15%, rgba(14,28,44,.45)), url("car front.jpg") center / cover, var(--dusk); }
 .hero h1 { font-size: clamp(2.6rem, 6vw, 4.6rem); font-weight: 800; }
 .place { color: #ffc98a; font-weight: 500; }
 .lead { font-size: 1.15rem; max-width: 34em; color: #e8edf3; }
